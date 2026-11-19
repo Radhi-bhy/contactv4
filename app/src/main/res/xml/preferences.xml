@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- ── Catégorie Affichage ──────────────────────────────────────────── -->
+    <PreferenceCategory app:title="Affichage">
+
+        <!-- Taille de police -->
+        <ListPreference
+            app:key="taille_police"
+            app:title="Taille de police"
+            app:entries="@array/taille_police_labels"
+            app:entryValues="@array/taille_police_values"
+            app:defaultValue="16"
+            app:useSimpleSummaryProvider="true" />
+
+        <!-- Couleur préférée -->
+        <ListPreference
+            app:key="couleur_preferee"
+            app:title="Couleur préférée"
+            app:entries="@array/couleur_preferee_labels"
+            app:entryValues="@array/couleur_preferee_values"
+            app:defaultValue="#111111"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <!-- ── Catégorie Liste des contacts ────────────────────────────────── -->
+    <PreferenceCategory app:title="Liste des contacts">
+
+        <!-- Bouton d'appel depuis la liste -->
+        <SwitchPreferenceCompat
+            app:key="appel_depuis_liste"
+            app:title="Activer l\'appel depuis la liste"
+            app:defaultValue="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

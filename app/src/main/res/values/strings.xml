@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contacts V4</string>
+
+    <!-- Liste -->
+    <string name="hint_recherche">Rechercher un contact…</string>
+    <string name="liste_vide">Aucun contact trouvé.</string>
+    <string name="recherche_vide">Aucun résultat pour cette recherche.</string>
+    <string name="btn_ajouter">Ajouter un contact</string>
+
+    <!-- Détail -->
+    <string name="titre_creation">Nouveau contact</string>
+    <string name="titre_edition">Modifier le contact</string>
+    <string name="hint_nom">Nom *</string>
+    <string name="hint_prenom">Prénom *</string>
+    <string name="hint_telephone">Téléphone *</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_latitude">Latitude (−90 à 90)</string>
+    <string name="hint_longitude">Longitude (−180 à 180)</string>
+    <string name="btn_enregistrer">Enregistrer</string>
+    <string name="btn_annuler">Annuler</string>
+    <string name="btn_supprimer">Supprimer</string>
+    <string name="btn_appeler">Appeler</string>
+    <string name="btn_email">E-mail</string>
+    <string name="btn_carte">Voir sur la carte</string>
+    <string name="btn_galerie">Galerie</string>
+    <string name="btn_camera">Caméra</string>
+    <string name="btn_appel_rapide">Appel rapide</string>
+
+    <!-- Validation -->
+    <string name="erreur_nom_vide">Le nom est obligatoire.</string>
+    <string name="erreur_prenom_vide">Le prénom est obligatoire.</string>
+    <string name="erreur_telephone_vide">Le téléphone est obligatoire.</string>
+    <string name="erreur_latitude">La latitude doit être comprise entre −90 et 90.</string>
+    <string name="erreur_longitude">La longitude doit être comprise entre −180 et 180.</string>
+    <string name="erreur_coordonnees_absentes">Ce contact n\'a pas de coordonnées GPS.</string>
+    <string name="erreur_email_absent">Aucune adresse e-mail renseignée.</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_supprimer_titre">Supprimer le contact ?</string>
+    <string name="dialog_supprimer_message">Cette action est irréversible.</string>
+    <string name="dialog_oui">Supprimer</string>
+    <string name="dialog_non">Annuler</string>
+
+    <!-- Paramètres -->
+    <string name="titre_parametres">Paramètres</string>
+    <string name="menu_parametres">Paramètres</string>
+
+    <!-- Carte -->
+    <string name="titre_carte">Localisation</string>
+
+    <!-- FileProvider authority -->
+    <string name="file_provider_authority">com.example.contactv4.fileprovider</string>
+</resources>

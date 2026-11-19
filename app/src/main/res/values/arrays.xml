@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Taille de police : labels affichés dans la ListPreference -->
+    <string-array name="taille_police_labels">
+        <item>Petite</item>
+        <item>Moyenne</item>
+        <item>Grande</item>
+    </string-array>
+
+    <!-- Taille de police : valeurs (sp) stockées dans les SharedPreferences -->
+    <string-array name="taille_police_values">
+        <item>14</item>
+        <item>16</item>
+        <item>20</item>
+    </string-array>
+
+    <!-- Couleur préférée : labels affichés -->
+    <string-array name="couleur_preferee_labels">
+        <item>Noir</item>
+        <item>Bleu</item>
+        <item>Vert</item>
+        <item>Rouge</item>
+        <item>Violet</item>
+    </string-array>
+
+    <!-- Couleur préférée : valeurs hex stockées -->
+    <string-array name="couleur_preferee_values">
+        <item>#111111</item>
+        <item>#1565C0</item>
+        <item>#2E7D32</item>
+        <item>#C62828</item>
+        <item>#6A1B9A</item>
+    </string-array>
+
+</resources>

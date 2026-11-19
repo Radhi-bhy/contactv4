@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Chemins exposés par FileProvider pour le partage de photos temporaires
+    avec les applications Caméra.
+    Référencé dans AndroidManifest.xml via android:resource="@xml/file_paths".
+-->
+<paths>
+    <!-- Stockage interne de l'app (context.filesDir) -->
+    <files-path
+        name="contact_photos"
+        path="photos/" />
+    <!-- Cache interne (context.cacheDir) pour le fichier temporaire de la caméra -->
+    <cache-path
+        name="contact_photos_cache"
+        path="photos/" />
+</paths>
